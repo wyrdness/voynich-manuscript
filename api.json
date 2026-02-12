@@ -1,0 +1,729 @@
+{
+  "category": "HISTORICAL_MYSTERY",
+
+  "meta": {
+    "version": "1.0.0",
+    "schema_version": "1.0.0",
+    "last_updated": "2026-01-14",
+    "repository": "https://github.com/wyrdness/voynich-manuscript",
+    "maintainers": [
+      {
+        "name": "Wyrdness Team",
+        "github": "wyrdness",
+        "role": "maintainer"
+      }
+    ],
+    "license": {
+      "data": "CC0-1.0",
+      "content": "CC-BY-4.0"
+    }
+  },
+
+  "phenomenon": {
+    "id": "voynich-manuscript",
+    "name": "Voynich Manuscript",
+    "aliases": [
+      {
+        "name": "Beinecke MS 408",
+        "meaning": "Yale catalog designation"
+      },
+      {
+        "name": "VMS",
+        "meaning": "Common academic abbreviation"
+      },
+      {
+        "name": "The Cipher Manuscript",
+        "meaning": "Popular reference to encrypted nature"
+      }
+    ],
+    "category": "HISTORICAL_MYSTERY",
+    "subcategory": "Undeciphered Text",
+    "tags": [
+      "manuscript",
+      "cipher",
+      "medieval",
+      "undeciphered",
+      "linguistics",
+      "paleography",
+      "cryptography",
+      "botanical",
+      "astronomical",
+      "unknown-script"
+    ],
+    "status": "unsolved",
+    "description": {
+      "summary": "A 15th century illustrated codex written in an unknown script and language that has never been deciphered. Contains approximately 240 pages with botanical, astronomical, and biological illustrations. Genuinely unexplained despite centuries of study.",
+      "full": "The Voynich Manuscript is an illustrated codex hand-written in an unknown script, dating from the early 15th century (1404-1438 CE based on carbon dating). The manuscript is named after Wilfrid Voynich, a Polish book dealer who purchased it in 1912. Despite extensive study by professional and amateur cryptographers, linguists, and historians, the manuscript's text has never been convincingly deciphered. The book contains approximately 240 vellum pages with colorful illustrations of unidentified plants, astronomical diagrams, nude figures in strange plumbing systems, and mysterious pharmaceutical recipes. The writing system appears consistent and shows statistical properties of natural language, but its meaning remains unknown. Theories range from encrypted medieval herbal to elaborate hoax to constructed language. The manuscript is currently housed at Yale University's Beinecke Rare Book & Manuscript Library. This represents a genuinely unsolved historical mystery under active scholarly investigation."
+    },
+    "etymology": {
+      "origin": "Named after Wilfrid Voynich (1865-1930), antiquarian book dealer who acquired it in 1912 from Villa Mondragone near Rome",
+      "meaning": "Named for its most famous owner, not its origin",
+      "first_documented": "1912 (modern discovery), 1666 (earliest documented ownership)"
+    }
+  },
+
+  "classification": {
+    "taxonomy": {
+      "category": "HISTORICAL_MYSTERY",
+      "type": "Undeciphered Manuscript",
+      "subtype": "Medieval Codex",
+      "variant": "Illustrated Cipher Text"
+    },
+    "related_phenomena": [
+      {
+        "id": "rohonc-codex",
+        "name": "Rohonc Codex",
+        "relationship": "similar",
+        "description": "Another undeciphered manuscript, possibly 16th century"
+      },
+      {
+        "id": "codex-seraphinianus",
+        "name": "Codex Seraphinianus",
+        "relationship": "modern_parallel",
+        "description": "1981 illustrated book in invented script (known to be art project)"
+      },
+      {
+        "id": "linear-a",
+        "name": "Linear A",
+        "relationship": "similar",
+        "description": "Undeciphered Bronze Age script from Crete"
+      },
+      {
+        "id": "indus-script",
+        "name": "Indus Script",
+        "relationship": "similar",
+        "description": "Undeciphered writing system from ancient Indus Valley"
+      }
+    ]
+  },
+
+  "characteristics": {
+    "physical": {
+      "pages": {
+        "original_count": 240,
+        "current_count": 234,
+        "missing": "Several pages lost over time"
+      },
+      "dimensions": {
+        "height": 22.5,
+        "width": 16.0,
+        "unit": "centimeters"
+      },
+      "material": "Calfskin vellum",
+      "binding": "Later addition, not original",
+      "weight": {
+        "value": "Approximately 0.5-1",
+        "unit": "kilograms"
+      },
+      "condition": "Good, with some wear and fading"
+    },
+    "content_sections": [
+      {
+        "section": "Herbal",
+        "pages": "Folios 1r-66v",
+        "description": "Botanical drawings of unidentified plants with accompanying text",
+        "illustration_count": "Approximately 113 plant drawings",
+        "notes": "Most plants do not match known species"
+      },
+      {
+        "section": "Astronomical",
+        "pages": "Folios 67r-73v",
+        "description": "Circular diagrams with astronomical and astrological symbols",
+        "illustration_count": "Multiple zodiac-like circles",
+        "notes": "Includes cosmological and zodiacal imagery"
+      },
+      {
+        "section": "Biological",
+        "pages": "Folios 75r-84v",
+        "description": "Small nude female figures in pools or tubes connected by elaborate pipe systems",
+        "illustration_count": "Over 100 small figures",
+        "notes": "Also called 'balneological' section, possibly about bathing or health"
+      },
+      {
+        "section": "Cosmological",
+        "pages": "Folios 85r-86v",
+        "description": "More circular diagrams, nine medallion-shaped rosettes",
+        "illustration_count": "Large fold-out diagram",
+        "notes": "Largest and most elaborate diagram in manuscript"
+      },
+      {
+        "section": "Pharmaceutical",
+        "pages": "Folios 87r-102v",
+        "description": "Drawings of plant parts, roots, and vessels with text labels",
+        "illustration_count": "Over 100 different drawings",
+        "notes": "Appears to be recipes or formulas"
+      },
+      {
+        "section": "Recipes",
+        "pages": "Folios 103r-116v",
+        "description": "Text only, no illustrations, appears as continuous paragraphs",
+        "illustration_count": "None",
+        "notes": "Short paragraphs marked with stars, recipe-like format"
+      }
+    ],
+    "writing_system": {
+      "script": "Unknown, called 'Voynichese'",
+      "characters": "Approximately 20-30 distinct glyphs",
+      "direction": "Left to right",
+      "properties": [
+        "No corrections or erasures visible",
+        "Fluid, confident handwriting",
+        "Appears to follow linguistic patterns",
+        "Statistical properties similar to natural language",
+        "Contains hapax legomena (words appearing once)",
+        "Low entropy compared to natural language"
+      ],
+      "word_count": "Approximately 35,000-40,000 words",
+      "unique_words": "Approximately 8,000"
+    },
+    "illustrations": {
+      "style": "Medieval European manuscript tradition",
+      "pigments": [
+        "Red",
+        "Blue",
+        "Green",
+        "Yellow",
+        "Brown"
+      ],
+      "technique": "Hand-painted with brush and pen",
+      "quality": "Varies from careful to hasty",
+      "subjects": [
+        "Botanical specimens (unknown species)",
+        "Astronomical/astrological diagrams",
+        "Human figures",
+        "Vessels and containers",
+        "Geometric patterns"
+      ]
+    }
+  },
+
+  "chronology": {
+    "carbon_dating": {
+      "date_range": "1404-1438 CE",
+      "confidence": "High (95%)",
+      "method": "Radiocarbon dating of vellum",
+      "tested_by": "University of Arizona",
+      "year_tested": "2009"
+    },
+    "first_documented_ownership": {
+      "date": "1666",
+      "owner": "Georg Baresch",
+      "location": "Prague",
+      "source": "Letter to Athanasius Kircher"
+    },
+    "modern_discovery": {
+      "date": "1912",
+      "discoverer": "Wilfrid Voynich",
+      "location": "Villa Mondragone, Frascati, Italy",
+      "circumstances": "Purchased from Jesuit college"
+    },
+    "current_location": {
+      "institution": "Yale University",
+      "library": "Beinecke Rare Book & Manuscript Library",
+      "catalog_number": "MS 408",
+      "acquisition_date": "1969",
+      "public_access": "Digital facsimile available online"
+    }
+  },
+
+  "provenance": {
+    "known_owners": [
+      {
+        "name": "Unknown original author/creator",
+        "period": "c. 1404-1438",
+        "notes": "Identity unknown, possibly Central European"
+      },
+      {
+        "name": "Possibly Emperor Rudolf II",
+        "period": "Late 16th-early 17th century",
+        "notes": "Unconfirmed legend that he paid 600 ducats for it",
+        "source": "Second-hand accounts, disputed"
+      },
+      {
+        "name": "Jacobus de Tepenec",
+        "period": "Early 17th century",
+        "notes": "Signature visible on f.1r under UV light",
+        "source": "Physical evidence"
+      },
+      {
+        "name": "Georg Baresch",
+        "period": "Before 1666",
+        "notes": "Prague alchemist, wrote to Athanasius Kircher about it",
+        "source": "Correspondence"
+      },
+      {
+        "name": "Johannes Marcus Marci",
+        "period": "1666",
+        "notes": "Sent to Athanasius Kircher with letter",
+        "source": "Original letter survives"
+      },
+      {
+        "name": "Athanasius Kircher",
+        "period": "1666-1680",
+        "notes": "Jesuit scholar, never deciphered it",
+        "source": "Correspondence"
+      },
+      {
+        "name": "Jesuit College at Villa Mondragone",
+        "period": "1680s-1912",
+        "notes": "Remained in Jesuit possession for centuries",
+        "source": "Institutional records"
+      },
+      {
+        "name": "Wilfrid Voynich",
+        "period": "1912-1930",
+        "notes": "Purchased from Jesuits, promoted and studied it",
+        "source": "Purchase records"
+      },
+      {
+        "name": "Ethel Voynich",
+        "period": "1930-1960",
+        "notes": "Widow of Wilfrid Voynich",
+        "source": "Estate records"
+      },
+      {
+        "name": "Hans P. Kraus",
+        "period": "1961-1969",
+        "notes": "Rare book dealer, purchased from Voynich estate",
+        "source": "Sales records"
+      },
+      {
+        "name": "Yale University",
+        "period": "1969-present",
+        "notes": "Donated by Hans Kraus after unable to sell",
+        "source": "University records"
+      }
+    ]
+  },
+
+  "decipherment_attempts": {
+    "statistics": {
+      "estimated_attempts": "Hundreds",
+      "published_solutions": "Dozens",
+      "accepted_solutions": 0,
+      "ongoing_research": true
+    },
+    "notable_attempts": [
+      {
+        "researcher": "William Romaine Newbold",
+        "year": "1921",
+        "approach": "Claimed microscopic shorthand revealing scientific knowledge",
+        "result": "Debunked by John Manly (1931) - seeing patterns that weren't there",
+        "status": "Disproven"
+      },
+      {
+        "researcher": "Joseph Martin Feely",
+        "year": "1943",
+        "approach": "Proposed medieval English using invented alphabet",
+        "result": "Not accepted by scholarly community",
+        "status": "Rejected"
+      },
+      {
+        "researcher": "Leonell Strong",
+        "year": "1945",
+        "approach": "Claimed double encoding system",
+        "result": "Could not demonstrate consistent methodology",
+        "status": "Rejected"
+      },
+      {
+        "researcher": "John Tiltman",
+        "year": "1967",
+        "approach": "Professional cryptanalyst, concluded it resists standard cryptanalysis",
+        "result": "No solution but important structural analysis",
+        "status": "Foundational work"
+      },
+      {
+        "researcher": "Robert Brumbaugh",
+        "year": "1975",
+        "approach": "Proposed numerical cipher",
+        "result": "Not reproducible",
+        "status": "Rejected"
+      },
+      {
+        "researcher": "Leo Levitov",
+        "year": "1987",
+        "approach": "Claimed Cathar heretical text in invented language",
+        "result": "Translation incoherent, not accepted",
+        "status": "Rejected"
+      },
+      {
+        "researcher": "Jacques Guy",
+        "year": "1991",
+        "approach": "Proposed Chinese origin via Romanization",
+        "result": "Interesting but not conclusive",
+        "status": "Speculative"
+      },
+      {
+        "researcher": "Gordon Rugg",
+        "year": "2004",
+        "approach": "Demonstrated manuscript could be hoax using Cardan grille",
+        "result": "Shows hoax is possible, doesn't prove it is one",
+        "status": "Influential but not conclusive"
+      },
+      {
+        "researcher": "Stephen Bax",
+        "year": "2014",
+        "approach": "Linguistic approach identifying proper nouns",
+        "result": "Claimed to identify some words, disputed by others",
+        "status": "Debated"
+      },
+      {
+        "researcher": "Gerard Cheshire",
+        "year": "2019",
+        "approach": "Claimed proto-Romance language solution",
+        "result": "Rejected by linguistic experts as methodologically flawed",
+        "status": "Rejected"
+      },
+      {
+        "researcher": "Ahmet Ardıç",
+        "year": "2021",
+        "approach": "Proposed Turkish language origin",
+        "result": "Not accepted by scholarly community",
+        "status": "Disputed"
+      },
+      {
+        "researcher": "Various AI/Machine Learning attempts",
+        "year": "2010s-2020s",
+        "approach": "Computational analysis using neural networks",
+        "result": "Interesting patterns but no breakthrough",
+        "status": "Ongoing research"
+      }
+    ],
+    "approaches": [
+      "Traditional cryptography",
+      "Linguistic analysis",
+      "Statistical pattern recognition",
+      "Proposed constructed languages",
+      "Steganography theories",
+      "Machine learning/AI",
+      "Historical contextual analysis",
+      "Comparison with known languages",
+      "Botanical identification attempts"
+    ]
+  },
+
+  "theories": {
+    "cipher_theories": [
+      {
+        "name": "Encrypted European Language",
+        "description": "Text is a cipher concealing a known language (Latin, German, Italian, etc.)",
+        "proponents": ["Various cryptographers"],
+        "evidence_cited": [
+          "Systematic appearance of text",
+          "Medieval cipher traditions",
+          "Possible encryption motivation"
+        ],
+        "challenges": [
+          "Resists standard cryptanalysis",
+          "No key found",
+          "Statistical properties don't match simple substitution"
+        ]
+      },
+      {
+        "name": "Complex Polyalphabetic Cipher",
+        "description": "Multiple shifting alphabets or sophisticated encoding",
+        "proponents": ["John Tiltman", "other cryptanalysts"],
+        "evidence_cited": [
+          "Would explain resistance to simple analysis",
+          "Known in Renaissance period"
+        ],
+        "challenges": [
+          "Unusually sophisticated for period",
+          "No decryption successful"
+        ]
+      }
+    ],
+    "natural_language_theories": [
+      {
+        "name": "Constructed/Artificial Language",
+        "description": "A language invented by the author for specific purpose",
+        "proponents": ["Various linguists"],
+        "evidence_cited": [
+          "Consistent grammatical patterns",
+          "Natural language statistical properties",
+          "No match to known languages"
+        ],
+        "challenges": [
+          "Unprecedented for medieval period",
+          "Unusual word structure"
+        ]
+      },
+      {
+        "name": "Unknown Natural Language",
+        "description": "A lost or unrecorded language",
+        "proponents": ["Stephen Bax", "others"],
+        "evidence_cited": [
+          "Statistical properties",
+          "Apparent semantic patterns"
+        ],
+        "challenges": [
+          "No language matches",
+          "Odd phonological patterns"
+        ]
+      },
+      {
+        "name": "Romance Language Variant",
+        "description": "Extinct or rare Romance language dialect",
+        "proponents": ["Gerard Cheshire (disputed)"],
+        "evidence_cited": [
+          "Proposed grammatical patterns"
+        ],
+        "challenges": [
+          "Methodologically rejected by linguists",
+          "Translations unconvincing"
+        ]
+      }
+    ],
+    "hoax_theories": [
+      {
+        "name": "Elaborate Medieval Hoax",
+        "description": "Created to deceive or as intellectual exercise",
+        "proponents": ["Gordon Rugg"],
+        "evidence_cited": [
+          "Can be replicated with period tools (Cardan grille)",
+          "Unusual statistical properties",
+          "Possible motivation to sell to Rudolf II"
+        ],
+        "challenges": [
+          "Extraordinary effort for a hoax",
+          "No clear perpetrator identified",
+          "Carbon dating confirms age"
+        ]
+      },
+      {
+        "name": "Automatic Writing/Glossolalia",
+        "description": "Product of trance state, meaningless but structured",
+        "proponents": ["Fringe theorists"],
+        "evidence_cited": [
+          "Unusual structure",
+          "No clear meaning"
+        ],
+        "challenges": [
+          "Too systematic for glossolalia",
+          "Medieval context makes unlikely"
+        ]
+      }
+    ],
+    "content_theories": [
+      {
+        "name": "Herbal/Medical Treatise",
+        "description": "Encrypted or coded medical knowledge",
+        "proponents": ["Majority view based on illustrations"],
+        "evidence_cited": [
+          "Botanical illustrations",
+          "Pharmaceutical section",
+          "Recipe format"
+        ],
+        "notes": "Most likely content type if deciphered"
+      },
+      {
+        "name": "Alchemical Text",
+        "description": "Alchemical knowledge in symbolic form",
+        "proponents": ["Historical alchemists like Baresch"],
+        "evidence_cited": [
+          "Era and context",
+          "Symbolic imagery",
+          "Tradition of encoded alchemy"
+        ]
+      },
+      {
+        "name": "Astrological/Astronomical Work",
+        "description": "Focus on celestial knowledge",
+        "proponents": ["Based on astronomical section"],
+        "evidence_cited": [
+          "Zodiac imagery",
+          "Astronomical diagrams"
+        ]
+      }
+    ],
+    "consensus": "No consensus exists. The manuscript remains genuinely undeciphered. Most scholars consider it either an uncracked cipher, a constructed language, or a sophisticated hoax, but none of these theories has been proven."
+  },
+
+  "scientific_analysis": {
+    "radiocarbon_dating": {
+      "institution": "University of Arizona",
+      "year": "2009",
+      "method": "AMS radiocarbon dating",
+      "results": "1404-1438 CE (95% confidence)",
+      "notes": "Dates the vellum, not necessarily the writing"
+    },
+    "ink_analysis": {
+      "findings": "Consistent with medieval period",
+      "components": "Iron gall ink, common for era",
+      "notes": "Ink likely contemporary with vellum"
+    },
+    "statistical_analysis": {
+      "researchers": ["Bennett, D'Imperio, Landini, Tiltman, others"],
+      "findings": [
+        "Zipf's law partially followed",
+        "Lower entropy than natural language",
+        "Higher entropy than random text",
+        "Unusual word structure patterns",
+        "Two distinct 'dialects' or 'hands'",
+        "High repetition of certain patterns"
+      ]
+    },
+    "botanical_analysis": {
+      "researchers": ["Various botanists"],
+      "findings": "Most plants don't match known species",
+      "possibilities": [
+        "Imaginary plants",
+        "Highly stylized real plants",
+        "Composite plants",
+        "Lost knowledge of extinct varieties"
+      ]
+    },
+    "paleographic_analysis": {
+      "script_style": "Consistent with early 15th century Northern Italy or Central Europe",
+      "hand_analysis": "Possibly 2-5 different hands/scribes",
+      "technique": "Professional quality, not amateur work"
+    },
+    "pigment_analysis": {
+      "findings": "Standard medieval pigments",
+      "colors": "Blues, reds, greens, yellows, browns",
+      "notes": "No anachronistic materials detected"
+    }
+  },
+
+  "cultural_impact": {
+    "academic_significance": {
+      "importance": "Most studied undeciphered text in history",
+      "disciplines_involved": [
+        "Cryptography",
+        "Linguistics",
+        "Paleography",
+        "Botany",
+        "Art history",
+        "Medieval studies",
+        "Computer science"
+      ],
+      "conferences": "Regular academic conferences and workshops",
+      "publications": "Hundreds of papers and books"
+    },
+    "popular_culture": {
+      "literature": [
+        "The Voynich Hotel (manga)",
+        "The Friar and the Cipher (book)",
+        "Solution of the Voynich Manuscript (book)"
+      ],
+      "media": [
+        "Documentary features",
+        "Podcast episodes",
+        "YouTube analysis videos",
+        "News articles"
+      ],
+      "games": [
+        "References in various mystery games",
+        "Inspiration for fictional ciphers"
+      ],
+      "influence": "Symbol of unsolved mysteries and lost knowledge"
+    },
+    "digital_accessibility": {
+      "availability": "High-resolution scans freely available",
+      "online_resources": [
+        "Yale University digital collection",
+        "Voynich Ninja community",
+        "Academic databases"
+      ],
+      "citizen_science": "Amateur cryptographers actively work on it"
+    }
+  },
+
+  "current_status": {
+    "state": "Unsolved",
+    "accessibility": "Publicly available (digital scans)",
+    "ongoing_research": true,
+    "recent_developments": [
+      "AI and machine learning approaches (ongoing)",
+      "New statistical analyses (2020s)",
+      "Historical context research (ongoing)",
+      "Botanical identification attempts (ongoing)"
+    ],
+    "scholarly_consensus": "Genuine historical mystery. Not a modern hoax. Real medieval artifact. Meaning unknown."
+  },
+
+  "research_resources": {
+    "primary_access": {
+      "institution": "Yale University, Beinecke Library",
+      "catalog": "MS 408",
+      "digital": "https://beinecke.library.yale.edu/collections/highlights/voynich-manuscript",
+      "restrictions": "Physical access restricted, digital scans freely available"
+    },
+    "major_databases": [
+      {
+        "name": "Voynich Manuscript Concordance",
+        "description": "Complete transcription database",
+        "maintainer": "René Zandbergen"
+      },
+      {
+        "name": "Voynich.nu",
+        "description": "Comprehensive research resource",
+        "type": "Academic portal"
+      },
+      {
+        "name": "Voynich Ninja",
+        "description": "Research community and forum",
+        "type": "Collaborative platform"
+      }
+    ],
+    "key_archives": [
+      "Yale's Beinecke Library",
+      "Correspondence archives (Kircher letters)",
+      "Historical ownership documentation"
+    ]
+  },
+
+  "educational_notes": {
+    "approach": "Genuine unsolved mystery requiring interdisciplinary study",
+    "critical_thinking": "Example of how scientific method handles unexplained phenomena",
+    "cautions": [
+      "Beware of claimed 'solutions' without peer review",
+      "Understand difference between hypothesis and proof",
+      "Recognize complexity of medieval manuscripts",
+      "Appreciate limits of current knowledge"
+    ],
+    "student_activities": [
+      "Statistical analysis of text patterns",
+      "Comparison with known cipher systems",
+      "Botanical illustration study",
+      "Historical context research",
+      "Paleographic analysis"
+    ]
+  },
+
+  "sources": [
+    {
+      "id": "kennedy-churchill-2006",
+      "type": "book",
+      "title": "The Voynich Manuscript",
+      "authors": ["Gerry Kennedy", "Rob Churchill"],
+      "publication": "Orion",
+      "date": "2006",
+      "isbn": "978-0752876665"
+    },
+    {
+      "id": "clemens-2016",
+      "type": "book",
+      "title": "The Voynich Manuscript: The Unsolved Riddle of an Extraordinary Book",
+      "authors": ["Raymond Clemens"],
+      "publication": "Yale University Press",
+      "date": "2016",
+      "isbn": "978-0300217230"
+    },
+    {
+      "id": "damico-2009",
+      "type": "academic",
+      "title": "The Voynich Manuscript: A Radiocarbon Dating",
+      "authors": ["Greg Hodgins", "others"],
+      "publication": "University of Arizona",
+      "date": "2009"
+    },
+    {
+      "id": "beinecke-digital",
+      "type": "website",
+      "title": "Voynich Manuscript Digital Collection",
+      "url": "https://beinecke.library.yale.edu/collections/highlights/voynich-manuscript",
+      "accessed": "2026-01-14"
+    }
+  ]
+}
