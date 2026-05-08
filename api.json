@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-07",
     "repository": "https://github.com/wyrdness/voynich-manuscript",
     "maintainers": [
       {
@@ -16,72 +16,145 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "voynich-manuscript",
     "name": "Voynich Manuscript",
-    "aliases": [],
-    "category": "HISTORICAL_MYSTERY_/_UNDECIPHERED_TEXT",
-    "subcategory": "Iron gall ink (standard medieval)",
+    "aliases": [
+      { "name": "Beinecke MS 408", "language": "Cataloging", "meaning": "Yale University Beinecke Library shelfmark" },
+      { "name": "MS 408", "language": "Cataloging" },
+      { "name": "Voynichese", "meaning": "Informal name for the manuscript's unidentified script and language" }
+    ],
+    "category": "CULTURAL_ARTIFACT",
+    "subcategory": "Undeciphered illustrated codex",
     "tags": [
-      "folklore",
-      "mythology"
+      "manuscript",
+      "cryptography",
+      "undeciphered",
+      "vellum",
+      "fifteenth-century",
+      "europe",
+      "linguistics",
+      "yale-beinecke"
     ],
     "status": "documented",
     "description": {
-      "summary": "The **Voynich Manuscript** is a 15th century illustrated codex written in an unknown script that has never been successfully deciphered.",
-      "full": "The **Voynich Manuscript** is a 15th century illustrated codex written in an unknown script that has never been successfully deciphered. Carbon dating places the vellum between 1404 and 1438 CE. The manuscript contains approximately 240 pages of text accompanied by colorful illustrations of unidentified plants, astronomical diagrams, nude figures in elaborate plumbing systems, and pharmaceutical recipes. Despite over a century of intensive study by professional cryptographers, linguists, historians, and computer scientists, the manuscript's meaning remains unknown. This represents one of the most fascinating genuinely unsolved historical mysteries, with no scholarly consensus on whether it is an encrypted text, a constructed language, an unknown natural language, or an elaborate hoax. The manuscript is named after Wilfrid Voynich, the Polish book dealer who purchased it in 1912 from the Jesuit College at Villa Mondragone near Rome. It is now housed at Yale University's Beinecke Rare Book & Manuscript Library (catalog number MS 408), where high-resolution digital scans are freely available to researchers worldwide."
+      "summary": "An illustrated 15th-century codex written in an unidentified script and held since 1969 at Yale University's Beinecke Rare Book and Manuscript Library as MS 408; its language and meaning have not been deciphered despite more than a century of expert study.",
+      "full": "The Voynich Manuscript (Beinecke MS 408) is a hand-written illustrated codex on vellum whose calfskin support has been radiocarbon-dated to 1404–1438 by University of Arizona researchers (2009). It comprises roughly 240 surviving pages measuring approximately 23.5 × 16.2 × 5 cm, bound in a non-original goatskin cover, and contains approximately 38,000 words written in an unknown script informally called 'Voynichese', accompanied by colored illustrations of unidentified plants, astronomical and cosmological diagrams, balneological scenes featuring nude female figures in elaborate water systems, and pharmaceutical recipes. The contents are conventionally divided into six sections: herbal, astronomical, balneological, cosmological, pharmaceutical, and recipes. Despite a century of intense study by professional cryptographers — including William F. Friedman and Elizebeth Friedman, John Tiltman, and Prescott Currier — and by linguists, computer scientists, and historians, no proposed decipherment has gained scholarly consensus. Major hypotheses are that the text is an enciphered natural language, an unknown natural language, a constructed (artificial) language, an elaborate hoax of meaningless filler, or some form of glossolalia. The manuscript is named for Wilfrid Voynich, the Polish-Lithuanian-American book dealer who acquired it in 1912 from the Society of Jesus at the Villa Mondragone (Frascati, Italy), and was donated to Yale in 1969 by Hans P. Kraus."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "Named for Wilfrid Michael Voynich (1865–1930), the Polish-American antiquarian book dealer who acquired the manuscript in 1912.",
+      "meaning": "Strictly speaking the proper name of an artifact rather than a description; the term 'Voynichese' is used informally for the manuscript's script.",
+      "first_use": "1912 (acquisition by Voynich); the term 'Voynich Manuscript' becomes standard in 20th-century scholarship."
     }
   },
+
   "classification": {
     "taxonomy": {
-      "category": "HISTORICAL_MYSTERY_/_UNDECIPHERED_TEXT",
-      "type": "Iron gall ink (standard medieval)",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "category": "CULTURAL_ARTIFACT",
+      "type": "Illustrated codex",
+      "subtype": "Undeciphered manuscript",
+      "variant": "Early-15th-century European"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "rohonc-codex", "name": "Rohonc Codex", "relationship": "similar", "description": "Hungarian undeciphered manuscript" },
+      { "id": "codex-seraphinianus", "name": "Codex Seraphinianus", "relationship": "similar", "description": "Modern (1981) imaginary-language illustrated codex by Luigi Serafini" },
+      { "id": "phaistos-disc", "name": "Phaistos Disc", "relationship": "similar", "description": "Bronze Age undeciphered inscribed clay disc" },
+      { "id": "linear-a", "name": "Linear A", "relationship": "similar", "description": "Undeciphered Minoan script" }
+    ]
   },
+
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "coloration": ["brown ink (text)", "watercolor blues, reds, greens, yellows (illustrations)"],
+      "features": [
+        { "feature": "Vellum support", "description": "Approximately 240 pages of calfskin vellum, radiocarbon-dated 1404–1438 (University of Arizona, 2009)", "frequency": "always" },
+        { "feature": "Voynichese script", "description": "Unknown script of approximately 9,000 unique 'words' showing language-like statistical regularities", "frequency": "always" },
+        { "feature": "Botanical illustrations", "description": "Hundreds of drawings of plants, the majority of which cannot be identified with known species", "frequency": "always" },
+        { "feature": "Astronomical / zodiacal diagrams", "description": "Circular charts including identifiable zodiac signs surrounded by nude female figures", "frequency": "common" },
+        { "feature": "Balneological section", "description": "Pages depicting nude female figures in interconnected pools and pipework", "frequency": "common" },
+        { "feature": "Pharmaceutical jars and recipes", "description": "Drawings of apothecary jars and short labelled paragraphs", "frequency": "common" }
+      ],
+      "morphology": "Quarto-sized parchment codex of approximately 240 surviving folios, including several large fold-out leaves; current binding is a later goatskin cover."
     },
     "abilities": [],
     "behavior": {
       "activity_period": "unknown",
       "disposition": "unknown",
-      "habitat_preference": []
+      "social_structure": "unknown",
+      "habitat_preference": ["secured archive (Beinecke Rare Book and Manuscript Library, Yale University)"],
+      "diet": "Not applicable.",
+      "patterns": []
     }
   },
+
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "A single physical artifact whose ownership and physical location have moved across central Europe and the United States; the surrounding research community is global.",
+      "continents": ["Europe", "North America"],
+      "countries": ["United States"],
+      "regions": [
+        "New Haven, Connecticut (current location)",
+        "Prague (Rudolfine and post-Rudolfine ownership)",
+        "Frascati / Villa Mondragone (Jesuit ownership)"
+      ]
     },
-    "hotspots": [],
+    "hotspots": [
+      {
+        "name": "Beinecke Rare Book and Manuscript Library",
+        "location": {
+          "description": "Yale University, New Haven, Connecticut",
+          "country": "United States",
+          "region": "Connecticut",
+          "coordinates": { "latitude": 41.3115, "longitude": -72.9269 }
+        },
+        "peak_period": "1969–present",
+        "notes": "Current home of the manuscript as MS 408; high-resolution digital scans are openly available."
+      },
+      {
+        "name": "Villa Mondragone",
+        "location": {
+          "description": "Jesuit villa at Monte Porzio Catone, near Frascati, Italy",
+          "country": "Italy",
+          "region": "Lazio"
+        },
+        "peak_period": "c. 1870s–1912",
+        "notes": "Where Wilfrid Voynich purchased the manuscript from the Society of Jesus in 1912."
+      }
+    ],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
+        "date": "1404-1438",
         "circa": true,
-        "source": "Traditional folklore"
-      }
+        "source": "Radiocarbon dating of vellum, University of Arizona (2009)"
+      },
+      "peak_activity_periods": [
+        { "period": "1912–1930", "description": "Voynich's ownership; first wave of public attention and decipherment attempts" },
+        { "period": "1944–1980", "description": "William F. Friedman's NSA-era cryptographic study groups (FSG and First/Second Voynich Manuscript Study Groups)" },
+        { "period": "2000–present", "description": "Computational, statistical, and open-data investigation following digitization at Yale" }
+      ]
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "Early-15th-century European manuscript culture; precise origin (workshop, region, or single author) unknown.",
+      "earliest_accounts": "First clearly documented owner is the Prague alchemist Georg Baresch (1617–1644). Earlier provenance (including the claim that Rudolf II of Bohemia purchased it for 600 ducats c. 1599) rests on later second-hand reports.",
+      "folklore_connections": "The manuscript has accumulated layers of legend including spurious attributions to Roger Bacon, John Dee, and Edward Kelley; radiocarbon dating substantially constrains these."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "1404-01-01", "event": "Earliest end of the radiocarbon date range for the vellum", "significance": "Earliest plausible production date", "source": "University of Arizona radiocarbon dating (2009)" },
+      { "date": "1438-01-01", "event": "Latest end of the radiocarbon date range for the vellum", "significance": "Latest plausible production date", "source": "University of Arizona radiocarbon dating (2009)" },
+      { "date": "1665-08-19", "event": "Jan Marek Marci of Kronland sends the manuscript with a covering letter to Athanasius Kircher in Rome", "significance": "Earliest precisely-dated documentary attestation", "source": "Marci letter to Kircher (1665), preserved with the manuscript" },
+      { "date": "1912-01-01", "event": "Wilfrid Voynich purchases the manuscript from the Society of Jesus at the Villa Mondragone", "significance": "Re-introduces the manuscript to public scholarship and gives it its modern name", "source": "Voynich provenance documentation" },
+      { "date": "1921-04-21", "event": "William Romaine Newbold presents his decipherment claim to the College of Physicians of Philadelphia", "significance": "First high-profile decipherment claim; later refuted by John M. Manly in 1931", "source": "Newbold (1921); Manly (1931), Speculum" },
+      { "date": "1969-01-01", "event": "Hans P. Kraus donates the manuscript to Yale University's Beinecke Library", "significance": "Establishes the present custody and shelfmark MS 408", "source": "Beinecke Library accession records" },
+      { "date": "2009-02-09", "event": "Radiocarbon dating of vellum at the University of Arizona dates the manuscript to 1404–1438", "significance": "Eliminates the hypothesis that Wilfrid Voynich himself fabricated the manuscript", "source": "University of Arizona / Beinecke Library (2009)" },
+      { "date": "2020-01-01", "event": "Linguist Claire Bowern and colleagues publish statistical analyses of Voynichese", "significance": "Recent computational research finding language-like statistical structure", "source": "Bowern et al., scholarly literature" }
+    ],
+    "modern_era": "The Beinecke Library has placed high-resolution digital images of the manuscript online, enabling crowdsourced and computational analysis. Theories continue to proliferate, but no decipherment is currently accepted by experts in cryptography, linguistics, or manuscript studies."
   },
+
   "sightings": {
     "statistics": {
       "total_documented": 0,
@@ -92,35 +165,164 @@
     "notable": [],
     "database_path": "./sightings/"
   },
+
   "evidence": {
-    "physical": [],
-    "photographic": [],
+    "physical": [
+      {
+        "id": "voynich-evidence-vellum-c14",
+        "type": "radiocarbon dating",
+        "name": "University of Arizona vellum dating",
+        "date": "2009",
+        "description": "Accelerator mass spectrometry radiocarbon dating of four samples of the manuscript's vellum, returning a 95% confidence range of 1404–1438.",
+        "status": "verified",
+        "analysis": "Robust constraint on date of production; rules out Wilfrid Voynich and most pre-15th-century attribution claims.",
+        "source": "University of Arizona NSF Accelerator Mass Spectrometry Laboratory (2009)"
+      }
+    ],
+    "photographic": [
+      {
+        "id": "voynich-evidence-beinecke-scans",
+        "type": "digitization",
+        "name": "Beinecke high-resolution scans of MS 408",
+        "description": "Open-access high-resolution digital images of the entire manuscript, hosted by Yale University.",
+        "status": "verified",
+        "analysis": "Now the primary working copy for nearly all scholarly and amateur analysis.",
+        "source": "Yale University Beinecke Rare Book and Manuscript Library",
+        "url": "https://collections.library.yale.edu/catalog/2002046"
+      }
+    ],
     "video": [],
     "audio": [],
-    "trace": []
+    "trace": [],
+    "documentary": [
+      {
+        "id": "voynich-evidence-marci-letter",
+        "type": "letter",
+        "name": "Marci letter to Kircher (1665)",
+        "date": "1665-08-19",
+        "description": "Cover letter from Jan Marek Marci sending the manuscript to Athanasius Kircher; reports the second-hand claim that Rudolf II had purchased it for 600 ducats and an attribution to Roger Bacon.",
+        "status": "verified",
+        "analysis": "Earliest precisely-dated provenance document associated with the manuscript.",
+        "source": "Manuscript and letter, Beinecke MS 408 (Yale)"
+      }
+    ]
   },
+
   "theories": {
     "paranormal": [],
-    "scientific": [],
-    "skeptical": []
+    "scientific": [
+      {
+        "name": "Encrypted natural language",
+        "description": "The text is a cipher of a known natural language (variously proposed as Latin, Italian, Hebrew, or others).",
+        "proponents": ["William F. Friedman", "John Tiltman"],
+        "evidence_cited": ["Word-frequency distributions broadly comparable to natural-language texts", "Apparent presence of word-like and sentence-like units"]
+      },
+      {
+        "name": "Unknown natural language",
+        "description": "The text records an otherwise unattested or poorly attested natural language in a custom script.",
+        "proponents": ["Stephen Bax", "Claire Bowern (statistical work)"],
+        "evidence_cited": ["Language-like statistical structure", "Plausible phonological patterning of glyphs"]
+      },
+      {
+        "name": "Constructed (artificial) language",
+        "description": "The text is an a priori artificial language with prefix-root-suffix word structure.",
+        "proponents": ["Prescott Currier", "Various 20th-century researchers"],
+        "evidence_cited": ["Apparent positional regularity of glyphs within 'words'"]
+      },
+      {
+        "name": "Meaningless hoax (cardan grille)",
+        "description": "The text is meaningless filler generated by a mechanical method such as a cardan grille, designed to look language-like.",
+        "proponents": ["Gordon Rugg"],
+        "evidence_cited": ["Reproducibility of Voynichese-like statistics by mechanical generation methods"]
+      }
+    ],
+    "skeptical": [
+      {
+        "name": "No solution yet meets evidentiary bar",
+        "description": "Mainstream cryptographic, linguistic, and manuscript-studies opinion is that no proposed decipherment to date has met the standards of reproducibility and broad-scope translation required.",
+        "proponents": ["Mainstream cryptography and manuscript-studies communities"],
+        "evidence_cited": ["Repeated failure of decipherment claims (e.g., Newbold 1921 refuted by Manly 1931)"]
+      }
+    ]
   },
+
   "cultural": {
     "folklore": {
       "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "stories": [
+        "Rudolf II's alleged 600-ducat purchase, reported second-hand in the 1665 Marci letter",
+        "Speculative attribution to Roger Bacon"
+      ],
+      "beliefs": "The Voynich Manuscript has accumulated a popular reputation as a 'cursed' or 'magical' book; mainstream scholarship treats it as a genuine but not-yet-understood early 15th-century artifact."
     },
     "popular_culture": {
-      "literature": [],
-      "film_tv": [],
+      "literature": [
+        "The Voynich Manuscript: An Elegant Enigma — Mary E. D'Imperio (1978, NSA monograph)",
+        "The Voynich Manuscript — Raymond Clemens (ed.), Yale University Press (2016)"
+      ],
+      "film_tv": [
+        "The Voynich Code (Naked Science, National Geographic, 2009)"
+      ],
       "games": [],
-      "other": []
+      "music": [
+        "The Voynich Cello Project — Hannes Wader / Hanno Stenkamp"
+      ],
+      "other": [
+        "Numerous online amateur communities (Voynich.nu, Voynich Mailing List)"
+      ]
     }
   },
+
   "research": {
-    "researchers": [],
-    "organizations": [],
-    "ongoing_studies": "None documented"
+    "researchers": [
+      { "name": "Wilfrid Voynich", "affiliation": "Antiquarian book dealer", "contribution": "Acquisition (1912) and modern naming of the manuscript", "period": "1912–1930" },
+      { "name": "William F. Friedman", "affiliation": "U.S. Army / NSA cryptographer", "contribution": "Founded the First and Second Voynich Manuscript Study Groups; the most influential 20th-century cryptographic engagement with the manuscript", "period": "1944–1969" },
+      { "name": "Mary E. D'Imperio", "affiliation": "NSA", "contribution": "Comprehensive 1978 monograph 'The Voynich Manuscript: An Elegant Enigma'", "period": "1970s" },
+      { "name": "Prescott Currier", "affiliation": "Cryptanalyst", "contribution": "Identification of two distinct 'languages' or hands (Currier A and B) within the manuscript", "period": "1970s" },
+      { "name": "Gordon Rugg", "affiliation": "Keele University (computer science)", "contribution": "Argued (2003) that Voynichese could be generated by a cardan-grille hoax method", "period": "2000s" },
+      { "name": "Stephen Bax", "affiliation": "University of Bedfordshire (linguistics)", "contribution": "2014 partial decoding proposal of selected botanical glyphs", "period": "2010s" },
+      { "name": "Claire Bowern", "affiliation": "Yale University (linguistics)", "contribution": "Statistical analyses of Voynichese as a putative natural language", "period": "2010s–present" }
+    ],
+    "organizations": [
+      { "name": "Beinecke Rare Book and Manuscript Library", "url": "https://beinecke.library.yale.edu/", "focus": "Custodian of MS 408 since 1969; provides high-resolution digital scans" },
+      { "name": "Voynich Manuscript Mailing List", "focus": "Long-running open community for amateur and professional Voynich research" }
+    ],
+    "ongoing_studies": "Computational linguistics, statistical cryptanalysis, materials analysis, and manuscript-studies scholarship continue to engage with the Voynich Manuscript. Yale's open digital edition supports both academic and crowd-sourced study."
   },
-  "sources": []
+
+  "sources": [
+    {
+      "id": "wikipedia-voynich",
+      "type": "website",
+      "title": "Voynich manuscript",
+      "url": "https://en.wikipedia.org/wiki/Voynich_manuscript",
+      "publication": "Wikipedia",
+      "accessed": "2026-05-07"
+    },
+    {
+      "id": "beinecke-ms408",
+      "type": "archive",
+      "title": "Beinecke MS 408 (Voynich Manuscript)",
+      "url": "https://collections.library.yale.edu/catalog/2002046",
+      "publication": "Yale University Beinecke Rare Book and Manuscript Library",
+      "accessed": "2026-05-07"
+    },
+    {
+      "id": "dimperio-1978",
+      "type": "book",
+      "title": "The Voynich Manuscript: An Elegant Enigma",
+      "authors": ["Mary E. D'Imperio"],
+      "publication": "National Security Agency",
+      "date": "1978"
+    },
+    {
+      "id": "clemens-2016",
+      "type": "book",
+      "title": "The Voynich Manuscript",
+      "authors": ["Raymond Clemens"],
+      "publication": "Yale University Press",
+      "date": "2016",
+      "isbn": "978-0300217230"
+    }
+  ]
 }

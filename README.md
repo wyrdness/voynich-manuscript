@@ -1,604 +1,194 @@
 # Voynich Manuscript
 
-> *"The most mysterious manuscript in the world."*
+> An illustrated 15th-century codex written in an unidentified script and held since 1969 at Yale University's Beinecke Rare Book and Manuscript Library as MS 408; its language and meaning have not been deciphered despite more than a century of expert study.
 
-[![API Version](https://img.shields.io/badge/api-v1.0.0-blue)]()
-[![Last Updated](https://img.shields.io/badge/updated-2026--01--14-green)]()
-[![Status](https://img.shields.io/badge/status-unsolved-red)]()
-[![Category](https://img.shields.io/badge/category-historical__mystery-purple)]()
+[![API Version](https://img.shields.io/badge/api-v1.1.0-blue)]() [![Last Updated](https://img.shields.io/badge/updated-2026-05-07-green)]() [![Sightings](https://img.shields.io/badge/sightings-0-orange)]() ![Status](https://img.shields.io/badge/status-documented-blue)
 
 ---
-
 ## Quick Reference
 
 | Property | Value |
-|----------|-------|
+|---|---|
 | **ID** | `voynich-manuscript` |
-| **Category** | HISTORICAL_MYSTERY |
-| **Classification** | Undeciphered Text / Medieval Codex |
-| **Date Created** | 1404-1438 CE (carbon dated) |
-| **Current Location** | Yale University, Beinecke Library |
-| **Status** | Unsolved (genuinely unexplained) |
-| **Pages** | ~240 vellum pages (234 surviving) |
+| **Category** | CULTURAL_ARTIFACT |
+| **Subcategory** | Undeciphered illustrated codex |
+| **First recorded** | 1404-01-01 |
+| **Primary range** | A single physical artifact whose ownership and physical location have moved across central Europe and the United States |
+| **Status** | documented |
 
 ---
-
 ## Overview
 
-The **Voynich Manuscript** is a 15th century illustrated codex written in an unknown script that has never been successfully deciphered. Carbon dating places the vellum between 1404 and 1438 CE. The manuscript contains approximately 240 pages of text accompanied by colorful illustrations of unidentified plants, astronomical diagrams, nude figures in elaborate plumbing systems, and pharmaceutical recipes.
-
-Despite over a century of intensive study by professional cryptographers, linguists, historians, and computer scientists, the manuscript's meaning remains unknown. This represents one of the most fascinating genuinely unsolved historical mysteries, with no scholarly consensus on whether it is an encrypted text, a constructed language, an unknown natural language, or an elaborate hoax.
-
-The manuscript is named after Wilfrid Voynich, the Polish book dealer who purchased it in 1912 from the Jesuit College at Villa Mondragone near Rome. It is now housed at Yale University's Beinecke Rare Book & Manuscript Library (catalog number MS 408), where high-resolution digital scans are freely available to researchers worldwide.
+The Voynich Manuscript (Beinecke MS 408) is a hand-written illustrated codex on vellum whose calfskin support has been radiocarbon-dated to 1404–1438 by University of Arizona researchers (2009). It comprises roughly 240 surviving pages measuring approximately 23.5 × 16.2 × 5 cm, bound in a non-original goatskin cover, and contains approximately 38,000 words written in an unknown script informally called 'Voynichese', accompanied by colored illustrations of unidentified plants, astronomical and cosmological diagrams, balneological scenes featuring nude female figures in elaborate water systems, and pharmaceutical recipes. The contents are conventionally divided into six sections: herbal, astronomical, balneological, cosmological, pharmaceutical, and recipes. Despite a century of intense study by professional cryptographers — including William F. Friedman and Elizebeth Friedman, John Tiltman, and Prescott Currier — and by linguists, computer scientists, and historians, no proposed decipherment has gained scholarly consensus. Major hypotheses are that the text is an enciphered natural language, an unknown natural language, a constructed (artificial) language, an elaborate hoax of meaningless filler, or some form of glossolalia. The manuscript is named for Wilfrid Voynich, the Polish-Lithuanian-American book dealer who acquired it in 1912 from the Society of Jesus at the Villa Mondragone (Frascati, Italy), and was donated to Yale in 1969 by Hans P. Kraus.
 
 ---
+## Names & Aliases
 
+| Name | Origin | Meaning |
+|---|---|---|
+| Beinecke MS 408 | Cataloging | Yale University Beinecke Library shelfmark |
+| MS 408 | Cataloging |  |
+| Voynichese |  | Informal name for the manuscript's unidentified script and language |
+
+## Etymology
+
+- **Origin**: Named for Wilfrid Michael Voynich (1865–1930), the Polish-American antiquarian book dealer who acquired the manuscript in 1912.
+- **Meaning**: Strictly speaking the proper name of an artifact rather than a description; the term 'Voynichese' is used informally for the manuscript's script.
+- **First use**: 1912 (acquisition by Voynich); the term 'Voynich Manuscript' becomes standard in 20th-century scholarship.
+
+---
+## Related Phenomena
+
+- [Rohonc Codex](../rohonc-codex/) — _similar_: Hungarian undeciphered manuscript
+- [Codex Seraphinianus](../codex-seraphinianus/) — _similar_: Modern (1981) imaginary-language illustrated codex by Luigi Serafini
+- [Phaistos Disc](../phaistos-disc/) — _similar_: Bronze Age undeciphered inscribed clay disc
+- [Linear A](../linear-a/) — _similar_: Undeciphered Minoan script
+
+---
 ## Physical Description
 
-### Material & Construction
+- **Coloration**: brown ink (text), watercolor blues, reds, greens, yellows (illustrations)
+- **Morphology**: Quarto-sized parchment codex of approximately 240 surviving folios, including several large fold-out leaves; current binding is a later goatskin cover.
 
-| Attribute | Details |
-|-----------|---------|
-| **Material** | Calfskin vellum |
-| **Dimensions** | 22.5 cm × 16.0 cm |
-| **Pages** | 240 original (234 surviving, some missing) |
-| **Binding** | Later addition, not original |
-| **Condition** | Good, some wear and fading |
-| **Weight** | Approximately 0.5-1 kg |
+### Features
 
-### Dating
+| Feature | Description | Frequency |
+|---|---|---|
+| Vellum support | Approximately 240 pages of calfskin vellum, radiocarbon-dated 1404–1438 (University of Arizona, 2009) | always |
+| Voynichese script | Unknown script of approximately 9,000 unique 'words' showing language-like statistical regularities | always |
+| Botanical illustrations | Hundreds of drawings of plants, the majority of which cannot be identified with known species | always |
+| Astronomical / zodiacal diagrams | Circular charts including identifiable zodiac signs surrounded by nude female figures | common |
+| Balneological section | Pages depicting nude female figures in interconnected pools and pipework | common |
+| Pharmaceutical jars and recipes | Drawings of apothecary jars and short labelled paragraphs | common |
 
-**Radiocarbon Dating (2009)**
-- **Institution**: University of Arizona
-- **Method**: AMS radiocarbon dating
-- **Result**: 1404-1438 CE (95% confidence interval)
-- **Material Tested**: Vellum (parchment)
-- **Note**: Dates the animal skin, not necessarily when it was written
+## Behavior
 
-**Ink Analysis**
-- Consistent with medieval period
-- Iron gall ink, common for era
-- Likely contemporary with vellum
+- **Activity**: unknown
+- **Disposition**: unknown
+- **Social structure**: unknown
+- **Habitat**: secured archive (Beinecke Rare Book and Manuscript Library, Yale University)
+- **Diet**: Not applicable.
 
 ---
+## Distribution
 
-## Content Sections
+A single physical artifact whose ownership and physical location have moved across central Europe and the United States; the surrounding research community is global.
 
-The manuscript is organized into six distinct sections based on illustration style and content:
+### Hotspots
 
-### 1. Herbal Section (Folios 1r-66v)
-
-- **Content**: Botanical illustrations with accompanying text
-- **Illustrations**: ~113 plant drawings
-- **Description**: Each page typically shows a single plant with roots, stems, leaves, and flowers
-- **Mystery**: Most plants do not match any known species
-- **Possibilities**: Imaginary plants, highly stylized real plants, composite plants, or extinct varieties
-
-### 2. Astronomical Section (Folios 67r-73v)
-
-- **Content**: Circular diagrams with astronomical/astrological symbols
-- **Illustrations**: Zodiac-like circles, celestial diagrams
-- **Description**: Concentric circles with zodiac symbols and text
-- **Notable**: Contains what appear to be star charts or cosmological diagrams
-
-### 3. Biological Section (Folios 75r-84v)
-
-- **Content**: Small nude female figures in pools or tubes
-- **Illustrations**: Over 100 small figures
-- **Description**: Figures connected by elaborate pipe or plumbing systems
-- **Alternative Names**: "Balneological section" (possibly about bathing)
-- **Theories**: Bathing practices, physiological processes, or symbolic representation
-
-### 4. Cosmological Section (Folios 85r-86v)
-
-- **Content**: Large circular diagrams
-- **Illustrations**: Nine medallion-shaped rosettes
-- **Description**: Contains the manuscript's largest fold-out diagram
-- **Mystery**: Possibly cosmological or geographical in nature
-
-### 5. Pharmaceutical Section (Folios 87r-102v)
-
-- **Content**: Plant parts, roots, and vessels with labels
-- **Illustrations**: Over 100 different drawings
-- **Description**: Appears to show recipes or pharmaceutical formulas
-- **Format**: Objects labeled with text
-
-### 6. Recipe Section (Folios 103r-116v)
-
-- **Content**: Text only, no illustrations
-- **Description**: Continuous paragraphs of text
-- **Format**: Short paragraphs marked with stars or bullets
-- **Appearance**: Resembles recipe or formula collection
+| Location | Region | Sightings | Peak |
+|---|---|---|---|
+| Beinecke Rare Book and Manuscript Library | Connecticut, United States |  | 1969–present |
+| Villa Mondragone | Lazio, Italy |  | c. 1870s–1912 |
 
 ---
+## Historical Timeline
 
-## The Writing System ("Voynichese")
+| Date | Event | Significance |
+|---|---|---|
+| 1404-01-01 | Earliest end of the radiocarbon date range for the vellum | Earliest plausible production date |
+| 1438-01-01 | Latest end of the radiocarbon date range for the vellum | Latest plausible production date |
+| 1665-08-19 | Jan Marek Marci of Kronland sends the manuscript with a covering letter to Athanasius Kircher in Rome | Earliest precisely-dated documentary attestation |
+| 1912-01-01 | Wilfrid Voynich purchases the manuscript from the Society of Jesus at the Villa Mondragone | Re-introduces the manuscript to public scholarship and gives it its modern name |
+| 1921-04-21 | William Romaine Newbold presents his decipherment claim to the College of Physicians of Philadelphia | First high-profile decipherment claim; later refuted by John M. Manly in 1931 |
+| 1969-01-01 | Hans P. Kraus donates the manuscript to Yale University's Beinecke Library | Establishes the present custody and shelfmark MS 408 |
+| 2009-02-09 | Radiocarbon dating of vellum at the University of Arizona dates the manuscript to 1404–1438 | Eliminates the hypothesis that Wilfrid Voynich himself fabricated the manuscript |
+| 2020-01-01 | Linguist Claire Bowern and colleagues publish statistical analyses of Voynichese | Recent computational research finding language-like statistical structure |
 
-### Characteristics
+## Evidence
 
-| Feature | Description |
-|---------|-------------|
-| **Script Name** | "Voynichese" (modern designation) |
-| **Character Count** | Approximately 20-30 distinct glyphs |
-| **Direction** | Left to right |
-| **Word Count** | ~35,000-40,000 words total |
-| **Unique Words** | ~8,000 different words |
-| **Writing Quality** | Fluid, confident, no visible corrections |
+### Physical
 
-### Statistical Properties
+| Name | Date | Description | Status |
+|---|---|---|---|
+| University of Arizona vellum dating | 2009 | Accelerator mass spectrometry radiocarbon dating of four samples of the manuscript's vellum, returning a 95% confidence range of 1404–1438. | verified |
+### Photographic
 
-The writing exhibits unusual properties that both support and challenge the idea that it's a natural language:
+| Name | Date | Description | Status |
+|---|---|---|---|
+| Beinecke high-resolution scans of MS 408 |  | Open-access high-resolution digital images of the entire manuscript, hosted by Yale University. | verified |
+### Documentary
 
-**Natural Language Features:**
-- Follows Zipf's law (common words appear very frequently)
-- Contains hapax legomena (words appearing only once)
-- Shows consistent grammatical patterns
-- Has apparent word structure (prefixes, suffixes)
-
-**Unusual Features:**
-- Lower entropy than typical natural language
-- High repetition of certain character combinations
-- Unusual word structure (specific patterns dominate)
-- Few "long" words relative to natural language
-- Limited phonological diversity
-
-### Hands and Dialects
-
-Paleographic analysis suggests:
-- **2-5 different scribes** may have worked on the manuscript
-- **Two distinct "dialects"** or writing styles (Currier A and B)
-- Consistent overall system despite multiple hands
-- Professional quality throughout
+| Name | Date | Description | Status |
+|---|---|---|---|
+| Marci letter to Kircher (1665) | 1665-08-19 | Cover letter from Jan Marek Marci sending the manuscript to Athanasius Kircher; reports the second-hand claim that Rudolf II had purchased it for 600 ducats and an attribution to Roger Bacon. | verified |
 
 ---
+## Theories & Explanations
 
-## Historical Provenance
+### Scientific
 
-### Known Ownership Chain
+**Encrypted natural language** _(William F. Friedman, John Tiltman)_
 
-| Period | Owner | Evidence | Notes |
-|--------|-------|----------|-------|
-| **1404-1438** | Unknown creator | Carbon dating | Identity and location unknown |
-| **~1600s** | Possibly Rudolf II | Legend/hearsay | Claimed he paid 600 ducats (disputed) |
-| **Early 1600s** | Jacobus de Tepenec | UV signature on f.1r | Director of Rudolf's botanical gardens |
-| **~1622-1666** | Georg Baresch | Letters to Kircher | Prague alchemist, sought decipherment |
-| **1666** | Johannes Marcus Marci | Cover letter | Sent to Kircher with manuscript |
-| **1666-1680** | Athanasius Kircher | Correspondence | Jesuit scholar, never deciphered it |
-| **1680s-1912** | Jesuit College | Institutional records | Villa Mondragone, Italy |
-| **1912-1930** | Wilfrid Voynich | Purchase records | Book dealer, publicized manuscript |
-| **1930-1960** | Ethel Voynich | Estate records | Widow of Wilfrid |
-| **1961-1969** | Hans P. Kraus | Sales records | Rare book dealer |
-| **1969-present** | Yale University | Donation | Beinecke Library, MS 408 |
+The text is a cipher of a known natural language (variously proposed as Latin, Italian, Hebrew, or others).
 
-### The Rudolf II Legend
+**Unknown natural language** _(Stephen Bax, Claire Bowern (statistical work))_
 
-An persistent legend claims that Emperor Rudolf II of Bohemia (1552-1612), known for his interest in alchemy and the occult, purchased the manuscript for 600 ducats (a substantial sum). This story comes from a 1665 letter but cannot be verified. Rudolf's court in Prague was a center for alchemists and scholars, making the story plausible but unconfirmed.
+The text records an otherwise unattested or poorly attested natural language in a custom script.
 
----
+**Constructed (artificial) language** _(Prescott Currier, Various 20th-century researchers)_
 
-## Decipherment Attempts
+The text is an a priori artificial language with prefix-root-suffix word structure.
 
-**Statistics:**
-- **Estimated attempts**: Hundreds
-- **Published claimed solutions**: Dozens
-- **Accepted by scholarly consensus**: Zero
-- **Status**: Genuinely unsolved
+**Meaningless hoax (cardan grille)** _(Gordon Rugg)_
 
-### Notable Decipherment Claims
+The text is meaningless filler generated by a mechanical method such as a cardan grille, designed to look language-like.
 
-#### William Romaine Newbold (1921)
-- **Claim**: Microscopic shorthand revealing advanced scientific knowledge
-- **Method**: Claimed to see additional markings under magnification
-- **Result**: Debunked by John Manly (1931) — Newbold was seeing artifacts and cracks in vellum
-- **Legacy**: Cautionary tale about seeing patterns that aren't there
+### Skeptical
 
-#### John Tiltman (1967)
-- **Background**: Professional cryptanalyst (British Government Communications Headquarters)
-- **Conclusion**: Resists all standard cryptanalysis techniques
-- **Contribution**: Important structural analysis of the text
-- **Legacy**: Foundational work for modern studies
+**No solution yet meets evidentiary bar** _(Mainstream cryptography and manuscript-studies communities)_
 
-#### Gordon Rugg (2004)
-- **Theory**: Sophisticated hoax using Cardan grille
-- **Demonstration**: Showed manuscript *could* be created with period tools
-- **Result**: Proves hoax is possible, not that it *is* a hoax
-- **Impact**: Influential but not conclusive
+Mainstream cryptographic, linguistic, and manuscript-studies opinion is that no proposed decipherment to date has met the standards of reproducibility and broad-scope translation required.
 
-#### Stephen Bax (2014)
-- **Approach**: Linguistic analysis, identifying proper nouns
-- **Claim**: Identified some words (plants, stars)
-- **Reception**: Disputed by other researchers
-- **Status**: Debated, not widely accepted
 
-#### Gerard Cheshire (2019)
-- **Claim**: Proto-Romance language solution
-- **Publication**: University of Bristol press release
-- **Reception**: Rejected by linguistic community as methodologically flawed
-- **Status**: Not accepted
+## Popular Culture
 
-#### AI and Machine Learning (2010s-2020s)
-- **Approach**: Neural networks and computational analysis
-- **Results**: Interesting patterns detected, no breakthrough
-- **Status**: Ongoing research avenue
+**Literature**: The Voynich Manuscript: An Elegant Enigma — Mary E. D'Imperio (1978, NSA monograph); The Voynich Manuscript — Raymond Clemens (ed.), Yale University Press (2016)
+
+**Film / TV**: The Voynich Code (Naked Science, National Geographic, 2009)
+
+**Music**: The Voynich Cello Project — Hannes Wader / Hanno Stenkamp
+
+**Other**: Numerous online amateur communities (Voynich.nu, Voynich Mailing List)
 
 ---
+## Research
 
-## Major Theories
+### Researchers
 
-### 1. Cipher Theories
+| Name | Affiliation | Contribution | Period |
+|---|---|---|---|
+| Wilfrid Voynich | Antiquarian book dealer | Acquisition (1912) and modern naming of the manuscript | 1912–1930 |
+| William F. Friedman | U.S. Army / NSA cryptographer | Founded the First and Second Voynich Manuscript Study Groups; the most influential 20th-century cryptographic engagement with the manuscript | 1944–1969 |
+| Mary E. D'Imperio | NSA | Comprehensive 1978 monograph 'The Voynich Manuscript: An Elegant Enigma' | 1970s |
+| Prescott Currier | Cryptanalyst | Identification of two distinct 'languages' or hands (Currier A and B) within the manuscript | 1970s |
+| Gordon Rugg | Keele University (computer science) | Argued (2003) that Voynichese could be generated by a cardan-grille hoax method | 2000s |
+| Stephen Bax | University of Bedfordshire (linguistics) | 2014 partial decoding proposal of selected botanical glyphs | 2010s |
+| Claire Bowern | Yale University (linguistics) | Statistical analyses of Voynichese as a putative natural language | 2010s–present |
 
-#### Encrypted European Language
-**Description**: The text conceals a known language (Latin, German, Italian, etc.) using encryption.
+### Organizations
 
-**Evidence For:**
-- Systematic appearance
-- Medieval cipher tradition existed
-- Possible motivation to hide knowledge
+- [Beinecke Rare Book and Manuscript Library](https://beinecke.library.yale.edu/) — Custodian of MS 408 since 1969; provides high-resolution digital scans
+- [Voynich Manuscript Mailing List](#) — Long-running open community for amateur and professional Voynich research
 
-**Evidence Against:**
-- Resists all standard cryptanalysis
-- No key ever found
-- Statistical properties inconsistent with simple substitution
-
-#### Complex Polyalphabetic Cipher
-**Description**: Sophisticated multi-alphabet encryption system.
-
-**Evidence For:**
-- Would explain resistance to analysis
-- Known in Renaissance period
-
-**Evidence Against:**
-- Unusually sophisticated for early 15th century
-- No successful decryption
-
-### 2. Natural/Constructed Language Theories
-
-#### Artificial Language
-**Description**: A language invented by the author.
-
-**Evidence For:**
-- Consistent grammatical patterns
-- Natural language statistics
-- No match to known languages
-
-**Evidence Against:**
-- Unprecedented for medieval period
-- Unusual word structure
-
-#### Unknown Natural Language
-**Description**: A lost or unrecorded language.
-
-**Evidence For:**
-- Statistical properties of natural language
-- Apparent semantic structure
-
-**Evidence Against:**
-- No language matches identified
-- Odd phonological patterns
-
-### 3. Hoax Theories
-
-#### Elaborate Medieval Hoax
-**Description**: Created to deceive, possibly to sell to Rudolf II.
-
-**Evidence For:**
-- Can be replicated with period tools (Rugg's Cardan grille method)
-- Unusual statistical properties
-- Possible financial motivation
-
-**Evidence Against:**
-- Extraordinary effort for limited gain
-- No clear perpetrator identified
-- Professional quality throughout
-- Why create such elaborate illustrations for a hoax?
-
-#### Automatic Writing/Meaningless Text
-**Description**: Product of trance state or random generation.
-
-**Evidence Against:**
-- Too systematic and consistent
-- Medieval context makes unlikely
-
-### 4. Content Theories
-
-Regardless of the writing system, theories about content include:
-
-- **Herbal/Medical Treatise**: Most likely based on illustrations
-- **Alchemical Text**: Common for the era and context
-- **Astrological/Astronomical Work**: Supported by astronomical section
-- **Pharmacological Knowledge**: Recipe-like structure
-- **Lost Scientific Knowledge**: Speculative
-
-### Current Scholarly Consensus
-
-**There is no consensus.** The manuscript remains genuinely undeciphered. Most serious scholars consider it either:
-1. An uncracked cipher
-2. A constructed or unknown language
-3. A sophisticated hoax
-
-None of these theories has been proven conclusively.
+Computational linguistics, statistical cryptanalysis, materials analysis, and manuscript-studies scholarship continue to engage with the Voynich Manuscript. Yale's open digital edition supports both academic and crowd-sourced study.
 
 ---
+## Sources
 
-## Scientific Analysis
+See [SOURCES.md](SOURCES.md) for the complete bibliography.
 
-### Radiocarbon Dating (2009)
 
-- **Laboratory**: University of Arizona, AMS facility
-- **Result**: 1404-1438 CE (95% confidence)
-- **Implication**: Not a modern forgery
-- **Note**: Dates vellum only; ink could theoretically be added later (though unlikely)
+## How to Report a Sighting
 
-### Ink Analysis
-
-- **Type**: Iron gall ink (standard medieval)
-- **Composition**: Consistent with 15th century
-- **Conclusion**: Likely contemporary with vellum
-
-### Statistical Analysis
-
-Multiple researchers have analyzed the text statistically:
-
-- **Zipf's Law**: Partially followed (common in natural language)
-- **Entropy**: Lower than natural language but higher than random
-- **Character Patterns**: Highly structured
-- **Word Structure**: Unusual but consistent
-- **Dialects**: Two distinct styles identified (Currier A and B)
-
-### Botanical Analysis
-
-Botanists examining the plant illustrations:
-
-- **Identification**: Most plants don't match known species
-- **Possibilities**: 
-  - Imaginary/composite plants
-  - Highly stylized real plants
-  - Extinct varieties
-  - Symbolic representations
-- **Conclusion**: Cannot determine purpose or identity
-
-### Paleographic Analysis
-
-Study of handwriting and manuscript production:
-
-- **Script Style**: Consistent with 15th century Northern Italy or Central Europe
-- **Hands**: Possibly 2-5 different scribes
-- **Quality**: Professional, not amateur
-- **Technique**: Standard medieval manuscript production
+1. **GitHub Issue**: [Submit Sighting Report](../../issues/new?template=sighting_report.yml)
+2. Provide date, location, witnesses, description, conditions, and any evidence.
 
 ---
+## License
 
-## Why It Resists Decipherment
-
-The Voynich Manuscript presents unique challenges:
-
-### If It's a Cipher:
-1. **No Known Pattern**: Doesn't match any known cipher system
-2. **Low Entropy**: Unusual for encrypted text
-3. **No Key**: No documentation or key has been found
-4. **Professional Analysis Failed**: Expert cryptanalysts (including WWII codebreakers) made no progress
-
-### If It's a Language:
-1. **No Match**: Doesn't correlate with any known language family
-2. **Unusual Structure**: Word patterns don't follow normal linguistic rules
-3. **No Rosetta Stone**: No parallel text or known words to anchor translation
-4. **Limited Phonology**: Appears to have fewer sounds than natural languages
-
-### If It's a Hoax:
-1. **Too Consistent**: Remarkable consistency for meaningless text
-2. **Enormous Effort**: Why create 240 pages of elaborate hoax?
-3. **No Confession**: No historical evidence of perpetrator
-4. **Professional Quality**: High-quality vellum, pigments, execution
+Content: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)  
+Data: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)  
 
 ---
-
-## Current Research
-
-### Active Research Areas
-
-1. **Computational Linguistics**
-   - Machine learning approaches
-   - Statistical pattern analysis
-   - Natural language processing
-
-2. **Historical Context**
-   - Provenance research
-   - Cultural context of creation
-   - Similar manuscripts
-
-3. **Botanical Studies**
-   - Plant identification attempts
-   - Historical herbology
-
-4. **Cryptographic Analysis**
-   - New cipher system testing
-   - Information theory approaches
-
-5. **Paleographic Studies**
-   - Scribe identification
-   - Writing hand analysis
-
-### Research Resources
-
-**Primary Access:**
-- Yale University Beinecke Library
-- High-resolution digital scans freely available
-- Complete transcriptions available
-
-**Major Projects:**
-- Voynich Manuscript Concordance (transcription database)
-- Voynich.nu (comprehensive research portal)
-- Voynich Ninja (research community)
-
----
-
-## Cultural Impact
-
-### Academic Significance
-
-The Voynich Manuscript has attracted attention from multiple disciplines:
-
-- **Cryptography**: Most-analyzed cipher text
-- **Linguistics**: Test case for language identification
-- **Medieval Studies**: Unique manuscript artifact
-- **History of Science**: Window into medieval knowledge
-- **Information Theory**: Statistical analysis challenges
-- **Computer Science**: Machine learning test case
-
-### Popular Culture
-
-- **Literature**: Featured in novels and manga
-- **Media**: Documentaries, articles, podcasts
-- **Internet**: Active online research communities
-- **Symbol**: Icon of unsolved mysteries
-- **Tourism**: Draws visitors to Yale's Beinecke Library
-
-### Public Accessibility
-
-Unlike many historical mysteries, the Voynich Manuscript is:
-- **Fully Digitized**: High-resolution scans available online
-- **Freely Accessible**: No restrictions on digital copies
-- **Well Documented**: Extensive research literature
-- **Community Engaged**: Citizen scientists welcome
-
----
-
-## Visiting the Manuscript
-
-### Physical Manuscript
-
-**Location**: Yale University, Beinecke Rare Book & Manuscript Library
-**Address**: 121 Wall Street, New Haven, CT 06511, USA
-**Catalog Number**: MS 408
-**Access**: Physical manuscript viewable only by appointment for research purposes
-
-### Digital Access
-
-**Yale Digital Collection**: Complete high-resolution scans
-**URL**: https://beinecke.library.yale.edu/collections/highlights/voynich-manuscript
-**Format**: Zoomable page images
-**Cost**: Free
-
----
-
-## How to Study It
-
-### For Researchers
-
-1. **Start with Digital Scans**: Yale's Beinecke collection
-2. **Review Literature**: Read Kennedy/Churchill and Clemens books
-3. **Use Transcriptions**: Voynich Manuscript Concordance
-4. **Join Communities**: Voynich Ninja, academic forums
-5. **Learn Context**: Medieval manuscript studies
-6. **Understand Cryptography**: Basic cipher knowledge
-7. **Statistical Tools**: Programming skills helpful
-
-### For Students
-
-**The Voynich Manuscript offers lessons in:**
-- Critical thinking and scientific method
-- Interdisciplinary research approaches
-- Importance of peer review
-- Distinguishing hypothesis from proof
-- Limits of current knowledge
-- Historical context and provenance
-
-### Red Flags for Claimed Solutions
-
-When evaluating claimed decipherments:
-
-❌ **Reject if:**
-- Not peer-reviewed
-- Cherry-picks evidence
-- Requires special "insight"
-- Makes extraordinary claims (ancient aliens, etc.)
-- Cannot be replicated by others
-- Produces incoherent translations
-- Ignored by academic community
-
-✅ **Consider seriously if:**
-- Peer-reviewed publication
-- Testable methodology
-- Addresses statistical properties
-- Acknowledged by experts
-- Produces consistent results
-- Explains anomalies
-
----
-
-## Educational Value
-
-### What the Voynich Manuscript Teaches Us
-
-1. **Humility**: Even with modern technology, some mysteries resist solution
-2. **Scientific Method**: Importance of evidence and replication
-3. **Interdisciplinary Work**: Complex problems require multiple perspectives
-4. **Historical Context**: Understanding the past is challenging
-5. **Pattern Recognition**: Humans are good at seeing patterns (sometimes too good)
-6. **Open Questions**: Not everything is explained
-
-### Why It Matters
-
-The Voynich Manuscript demonstrates that:
-- Genuine unexplained phenomena exist
-- Scientific investigation is ongoing
-- Mystery doesn't require supernatural explanation
-- Historical artifacts reward patient study
-- Collaborative research advances knowledge
-
----
-
-## Conclusion
-
-The Voynich Manuscript stands as a genuinely unsolved historical mystery. Despite carbon dating confirming its medieval origin, analysis by expert cryptographers and linguists, and the application of modern computational methods, its meaning remains unknown.
-
-Unlike pseudoscientific "mysteries" that have been debunked, the Voynich Manuscript represents a real historical puzzle. It is either:
-- An undeciphered cipher protecting medieval knowledge
-- A constructed or lost language
-- An elaborate hoax of extraordinary sophistication
-
-Any of these possibilities would make it a remarkable artifact. The manuscript continues to inspire research across multiple disciplines and serves as a reminder that history still holds secrets.
-
-Whether it will ever be deciphered remains an open question. For now, it stands as the world's most mysterious book — a genuine enigma from the medieval world that continues to challenge and fascinate scholars and enthusiasts alike.
-
----
-
-## Quick Facts
-
-- ✅ **Real**: Carbon-dated to 1404-1438 CE
-- ✅ **Undeciphered**: No accepted translation exists
-- ✅ **Accessible**: Digital scans freely available
-- ✅ **Studied**: Analyzed by professional cryptographers
-- ✅ **Unsolved**: Genuinely unexplained
-- ❌ **Not Ancient Aliens**: Medieval European origin confirmed
-- ❌ **Not Modern Hoax**: Age scientifically verified
-- ⚠️ **Status**: Mystery under active investigation
-
----
-
-## See Also
-
-- [Linear A](/linear-a) — Undeciphered Bronze Age script
-- [Rohonc Codex](/rohonc-codex) — Another mysterious manuscript
-- [Indus Script](/indus-script) — Ancient undeciphered writing
-- [Medieval Manuscripts](/medieval-manuscripts) — Historical context
-
----
-
-## References
-
-See [SOURCES.md](./SOURCES.md) for comprehensive bibliography.
-
-**Key Resources:**
-- Kennedy, G. & Churchill, R. (2006). *The Voynich Manuscript*
-- Clemens, R. (2016). *The Voynich Manuscript: The Unsolved Riddle*
-- Yale Beinecke Digital Collection
-- Voynich.nu research portal
-
----
-
-*This is a genuinely unsolved historical mystery. Approach claims of "solution" with appropriate skepticism and demand peer-reviewed evidence.*
-
-**Last Updated**: 2026-01-14  
-**Status**: Unsolved  
-**Category**: Historical Mystery / Undeciphered Text
+_Auto-generated from `api.json`. Do not edit by hand — edit `api.json` and run `make repo-docs`._
